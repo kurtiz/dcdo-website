@@ -1,10 +1,6 @@
 "use client";
 
 import AnimatedAccordion from "@/components/animated-accordion";
-import {FiDollarSign} from "@react-icons/all-files/fi/FiDollarSign";
-import {FiPlay} from "@react-icons/all-files/fi/FiPlay";
-import {FiBell} from "@react-icons/all-files/fi/FiBell";
-import {FiBarChart} from "@react-icons/all-files/fi/FiBarChart";
 
 const CoreValues = () => {
 
