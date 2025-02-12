@@ -39,7 +39,7 @@ const CoreValues = () => {
     ];
 
     return (
-        <div className="px-8 py-8 flex flex-col gap-4">
+        <div suppressHydrationWarning={true} className="px-8 py-8 flex flex-col gap-4">
             <p className="text-4xl md:text-6xl font-extrabold text-center text-black">Our Core Values</p>
             <AnimatedAccordion items={items} className="mt-4 motion-blur-in"/>
         </div>
