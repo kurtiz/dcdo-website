@@ -51,7 +51,7 @@ const OurFocusAreas = () => {
                         viewport={{once: true}}
                         transition={{duration: 0.5, delay: index * 0.2}}
                         whileHover={{scale: 1.04}}
-                        className="p-6 bg-white shadow-lg rounded-lg text-center"
+                        className="p-6 bg-white shadow-sm hover:shadow-lg rounded-lg text-center border border-yellow-800/40"
                     >
                         <Image
                             src={`/assets/svg/${area.icon}.svg`}

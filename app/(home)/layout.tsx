@@ -36,6 +36,7 @@ export default function HomeLayout({children}: { children: ReactNode }) {
                     duration: 0.15,
                 }}
                 onPositionChange={handlePositionChange}
+                className="hidden md:block"
             >
                 <motion.div
                     animate={{
