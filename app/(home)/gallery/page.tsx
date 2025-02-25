@@ -3,7 +3,7 @@ import React from 'react';
 import {ImageGallery} from 'react-image-grid-gallery';
 
 const GalleryComponent = () => {
-    
+
     const imagesArray = Array.from({length: 22}, (_, i) => ({
         id: `unique_id${i + 1}`,
         alt: `Image ${i + 1}'s alt text`,
@@ -16,9 +16,10 @@ const GalleryComponent = () => {
         <div className="flex mt-8" suppressHydrationWarning>
             <div className="w-full">
                 <div className="flex justify-center flex-col items-center">
-                    <h2 className="text-3xl font-extrabold text-yellow-800">Gallery</h2>
-                    <div className="w-16 h-1 mx-auto bg-yellow-800 mb-6 rounded"></div>
-                    <p className="text-gray-600 mb-8">
+                    <h2 className="text-3xl font-extrabold text-yellow-800 motion-preset-rebound-up">Gallery</h2>
+                    <div
+                        className="w-16 h-1 mx-auto bg-yellow-800 mb-6 rounded motion-preset-rebound-up motion-delay-75"></div>
+                    <p className="text-gray-600 mb-8 motion-preset-rebound-up motion-delay-100">
                         See our community activities
                     </p>
                 </div>
