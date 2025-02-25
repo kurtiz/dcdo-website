@@ -3,13 +3,13 @@ import React from 'react';
 import {ImageGallery} from 'react-image-grid-gallery';
 
 const GalleryComponent = () => {
-    // Create an array of image objects
+    
     const imagesArray = Array.from({length: 22}, (_, i) => ({
-        id: `unique_id${i + 1}`, // Unique ID for each image
-        alt: `Image ${i + 1}'s alt text`, // Alt text for accessibility
-        caption: `Image ${i + 1}'s description`, // Optional caption
-        src: `/assets/img/gallery/img-${i + 1}.jpeg`, // Image source
-        thumbSrc: `/assets/img/gallery/img-${i + 1}.jpeg`, // Thumbnail source (optional)
+        id: `unique_id${i + 1}`,
+        alt: `Image ${i + 1}'s alt text`,
+        caption: `Image ${i + 1}'s description`,
+        src: `/assets/img/gallery/img-${i + 1}.jpeg`,
+        thumbSrc: `/assets/img/gallery/img-${i + 1}.jpeg`,
     }));
 
     return (
@@ -24,15 +24,15 @@ const GalleryComponent = () => {
                 </div>
 
                 {/* Image Gallery Component */}
-                <div className="px-4">
+                <div className="px-4 motion-blur-in">
                     <ImageGallery
                         customStyles={{
                             imageStyle: {
                                 borderRadius: "3%",
                             }
                         }}
-                        imagesInfoArray={imagesArray} // Array of image objects
-                        gapSize={10} // Gap between images in pixels
+                        imagesInfoArray={imagesArray}
+                        gapSize={10}
                     />
                 </div>
             </div>
