@@ -19,7 +19,7 @@ const GalleryComponent = () => {
                     <h2 className="text-3xl font-extrabold text-yellow-800 motion-preset-rebound-up">Gallery</h2>
                     <div
                         className="w-16 h-1 mx-auto bg-yellow-800 mb-6 rounded motion-preset-rebound-up motion-delay-75"></div>
-                    <p className="text-gray-600 mb-8 motion-preset-rebound-up motion-delay-100">
+                    <p className="text-gray-600 mb-8 motion-preset-rebound-up motion-delay-100 text-center">
                         See our community activities
                     </p>
                 </div>
